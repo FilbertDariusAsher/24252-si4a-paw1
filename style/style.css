@@ -1,0 +1,15 @@
+.bodyHubungi{
+    background-image: url(../image/mika.png); 
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}

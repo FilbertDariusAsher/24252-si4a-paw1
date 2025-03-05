@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
-<body>
+<body class="bodyHubungi">
     <h1>Hubungi</h1>
+    <form action="proses.php" method="post">
+        Nama lengkap <br>
+        <input type="text" name="nama" id="nama"
+        required ><br>
+        Tanggal Lahir <br>
+        <input type="date" name="date" id="tanggallahir">
+        Jenis Kelamin <br>
+        <input type="radio" name="JK" id="jkl" checked>
+        Laki-laki <br>
+        <input type="radio" name="JK" id="JKP" value="P">
+        Perempuan <br>
+        Tempat Lahir <br>
+        <select name="TempatLahir" id="TempatLahir">
+            <option value="PLB">Palembang</option>
+            <option value="JKT">Jakarta</option>
+        </select><br>
+        pesan <br>
+        <textarea name="pesan" id="pesan"></textarea><br>
+        <button type="submit">Kirim</button>
+    </form>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.4458122149726!2d104.76146727424562!3d-2.973708239797232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b766d8211462f%3A0xcc95d97476bf2dd8!2sUniversitas%20Multi%20Data%20Palembang!5e0!3m2!1sid!2sid!4v1740381350505!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <a href="index.html">Home</a>
+    <a href="Hubungi.html">Hubungi Kami</a>
 </body>
 </html>
