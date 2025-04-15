@@ -21,7 +21,7 @@ function simpan(){
     data.push({nama_pengunjung: nama,perlu : keperluan,jk : jk});
 
     localStorage.setItem('ls_bukuTamu',JSON.stringify(data));
-
+    
     daftar_tamu.innerHTML='';
     tampil();
 }
