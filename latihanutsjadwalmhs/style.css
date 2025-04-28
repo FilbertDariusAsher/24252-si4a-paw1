@@ -1,0 +1,106 @@
+body {
+    background-color: #4c86c0; 
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    background-color: #a60000; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Memberikan bayangan untuk judul */
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan untuk form */
+    margin-bottom: 30px;
+}
+
+.btn-submit {
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+}
+
+#jadwalList .card {
+    background-color: #ffffff;
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow untuk card */
+}
+
+#jadwalList .card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #555;
+}
+
+button {
+    background-color: #dc3545; /* Warna tombol hapus merah */
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c82333; /* Warna tombol hapus saat hover */
+}
+/* Mengganti warna tombol Simpan */
+.btn-submit {
+    background-color: #007bff; /* Warna biru */
+    color: white;
+    font-weight: bold;
+    border-radius: 5px; /* Sudut melengkung pada tombol */
+    border: none;
+    padding: 10px 20px; /* Ukuran tombol lebih besar */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efek transisi untuk perubahan warna */
+}
+
+.btn-submit:hover {
+    background-color: #0056b3; /* Warna biru lebih gelap saat hover */
+}
+
+/* Hover effect untuk card */
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+
+/* width: 200px; Ini untuk mengatur lebar elemen. Misalnya, jika kamu ingin elemen seperti div, gambar, atau tombol memiliki lebar 200 piksel. */
+/* height: 100px; /* Ini untuk mengatur tinggi elemen. Misalnya, untuk menentukan seberapa tinggi sebuah elemen (seperti gambar atau kotak div). */
+/* padding: 20px; Ini memberi ruang di dalam elemen (antara konten dan batas elemen). Jika kamu memberikan padding, elemen tersebut akan memiliki ruang ekstra di dalamnya. */
+/* margin: 10px; Ini memberi ruang di luar elemen, antara elemen tersebut dengan elemen lainnya. Misalnya, jika kamu ingin elemen div memiliki jarak dari elemen lain di sekitarnya. */
+/* border: 1px solid black; Ini menambahkan garis border di sekitar elemen. Di sini, border memiliki ketebalan 1 piksel, jenis solid, dan warna hitam. */
+/* background-color: #ff5733; Ini mengatur warna latar belakang elemen. Kamu bisa menggunakan warna dalam format hex, rgb, atau kata warna (misalnya, red). */
+/* font-size: 16px; Ini untuk mengatur ukuran font teks di dalam elemen. Misalnya, untuk teks di dalam div atau paragraf. */
+/* color: #333333; Ini mengatur warna teks di dalam elemen. Misalnya, jika kamu ingin teks dalam div menjadi warna abu-abu gelap. */
+/* text-align: center; Ini mengatur perataan teks di dalam elemen. Bisa diatur menjadi left, center, atau right. */
+/* display: block; Ini mengatur cara elemen ditampilkan. Block berarti elemen akan mengambil seluruh lebar yang tersedia. Inline akan membuat elemen hanya sebesar kontennya. */
+/* position: absolute; Ini mengatur posisi elemen di halaman. Ada beberapa jenis posisi: static (default), relative, absolute, fixed, dan sticky. */
+/* display: flex; Ini mengaktifkan Flexbox pada elemen untuk membuat tata letak yang fleksibel dan responsif. */
+/* align-items: center; Digunakan dalam Flexbox untuk mengatur perataan vertikal elemen di dalam wadah flex. Contohnya, membuat semua elemen di dalam flex container sejajar di tengah. */
+/* justify-content: space-between; Digunakan dalam Flexbox untuk mengatur perataan horizontal elemen di dalam wadah flex. Misalnya, membagi elemen di dalam flex container dengan jarak yang rata. */
+/* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); Ini menambahkan bayangan di sekitar elemen. Kamu bisa menyesuaikan posisi, ukuran, dan transparansi bayangan. */

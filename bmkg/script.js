@@ -12,10 +12,6 @@ fetch("https://data.bmkg.go.id/DataMKG/TEWS/autogempa.json")
         <p>jam :${data.Infogempa.gempa.Jam}</p>
         <p>kedalaman :${data.Infogempa.gempa.Kedalaman}</p>
         <p>potensi :${data.Infogempa.gempa.Potensi}</p>
-    </div>
-
-    <div class="col-lg-6 col-sm-12">
-        <image src="https://data.bmkg.go.id/DataMKG/TEWS/${data.Infogempa.gempa.Shakemap}">
     </div>`
     
 })
